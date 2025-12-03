@@ -10,14 +10,14 @@
 
 ## Installation 
 
-- You can install waywall on most Linux distributions via three methods. Choose the one matching your preference::
+- You can install waywall on most Linux distributions via three methods. Choose the one matching your preference:
   - **Built-in script (Recommended):** Officially maintained, one-click installer for Arch/Fedora/Debian derivatives, no manual GLFW patch/compile needed.
   - **Manual install:** Officially maintained, compile from source and patch GLFW as required.
   - **Package manager:** Third-party packages (one-click) but you still may need to patch GLFW.
 
 
 ## Built-in Script Install
-- Distributions derived from Fedora (rpm), Debian/Ubuntu (dpkg/apt), and Arch Linux (pacman) are supported. Other distributions that support one of these package managers may work but are not officially supported. [List of Linux Distribution tree](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Official_derivatives).
+- Distributions derived from Fedora (rpm), Debian/Ubuntu (dpkg/apt), and Arch Linux (pacman) are supported. Other distributions that support one of these package managers may work but are not officially supported. [Linux distribution families](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Official_derivatives).
 
 - To install waywall using the built-in script you need to follow the steps under "Building from build-packages.sh" on the [README.md](https://github.com/tesselslate/waywall/blob/main/README.md) file from the waywall repository.
 
@@ -29,15 +29,14 @@ sudo dnf install libspng-devel cmake meson mesa-libEGL-devel luajit-devel libway
 ```
 ### Debian-based
 ```bash
-sudo apt install libgles2-mesa-dev libegl-dev pkg-config debhelper-compat wayland-protocols meson build-essential libspng-dev libluajit-5.1-dev libwayland-dev libxkbcommon-dev xwayland cmake wayland-scanner++ libegl1 luajit libspng0 libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0 libxcb1 libxcb-composite0-dev libxcb-res0-dev libxcb-xtest0-dev libxkbcommon0 curl git
+apt update && sudo apt install libgles2-mesa-dev libegl-dev pkg-config debhelper-compat wayland-protocols meson build-essential libspng-dev libluajit-5.1-dev libwayland-dev libxkbcommon-dev xwayland cmake wayland-scanner++ libegl1 luajit libspng0 libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0 libxcb1 libxcb-composite0-dev libxcb-res0-dev libxcb-xtest0-dev libxkbcommon0 curl git
 ```
 ##### Debian features an old version of libxcb, to get around this we need to patch waywall (Do this inside the waywall folder):
 ```bash
 curl -o mod.patch https://files.catbox.moe/my3adv.patch
 git apply mod.patch
 ```
-
-### ArchLinux-based
+### Arch Linux-based
 ```bash
 sudo pacman -S --noconfirm ninja meson wayland-protocols libegl libgles luajit libspng libxcb libxkbcommon xorg-xwayland
 ```
