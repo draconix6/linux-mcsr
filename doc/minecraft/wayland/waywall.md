@@ -58,9 +58,9 @@ sudo pacman -S --noconfirm ninja meson wayland-protocols libegl libgles luajit l
 #### Package manager installs may still require the GLFW patch described in the Post-Install section.
 
 ## Post-Install
-- If you used either **Manual Install** or **Package Manager Install** (without patched GLFW), you need to visit the [next page of the documentation](https://tesselslate.github.io/waywall/00_setup.html) to patch GLFW. You also need it to set up your instance to launch within waywall.
+- To correctly setup waywall to launch alongside minecraft you need to follow the [setup documentation](https://tesselslate.github.io/waywall/00_setup.html), You can skip the GLFW section unless you did **Manual Install** or **Package Manager Install** (without patched GLFW)
 
-- After this, move to the [next section](waywall_config.html) to install an example config and learn how to customize it to your liking.
+- After this, move to the [config documentation](waywall_config.html) to install an example config and learn how to customize it to your liking.
 
 ## Troubleshooting
 
