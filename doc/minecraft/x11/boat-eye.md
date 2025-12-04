@@ -96,10 +96,11 @@ EndSection
   - muffin (Linux Mint/Cinnamon Desktop Environment)
   - xfwm (XFCE Desktop Environment)
   - mutter (Gnome Desktop Environment)
-- Before switching desktop environments/window managers, check if initially resizing the game window out of monitor bounds works for you.
+- Before switching desktop environments/window managers, check if initially moving/resizing the game window out of monitor bounds works for you.
   - Set the `play_res` and each `alt_res` option in your resetti config to be 1 pixel larger than your monitor's bounds in either dimension.
   - Make sure to unmaximize/unfullscreen your game window (play in borderless if possible - on KDE, press Alt+F3 and disable window borders).
     - On i3 or other tiling window managers, make sure the game window is undocked (make the window floating).
+  - After this, you may also be required to manually drag the game window partially offscreen before your resizing hotkeys work properly.
 
 ## i3
 
