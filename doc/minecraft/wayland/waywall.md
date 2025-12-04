@@ -1,10 +1,10 @@
 # waywall
 
 - **waywall** is a Wayland compositor designed to run inside your existing Wayland session. It provides various convenient features for speedrunning, including but not limited to:
-  - Window resizing
-  - Key remapping
-  - Ninjabrain Bot support
-  - Mirrors (i.e. magnifiers for eye measuring, F3, etc.) without using OBS
+  - Window resizing.
+  - Key remapping.
+  - Ninjabrain Bot support.
+  - Mirrors (i.e. magnifiers for eye measuring, F3, etc.) without using OBS.
   - Lots of custom functionality.
 - If you're using **X11**, please use [resetti](../x11/resetti.html) instead.
 
@@ -53,12 +53,12 @@ sudo pacman -S --noconfirm ninja meson wayland-protocols libegl libgles luajit l
 
 ## Package Manager Install
 - On Arch Linux, [you can install waywall through the AUR](https://aur.archlinux.org/packages/waywall-working-git).
-- On NixOS, [you can install waywall through its package manager](https://search.nixos.org/packages?channel=25.11&show=waywall&query=waywall)
+- On NixOS, [you can install waywall through its package manager](https://search.nixos.org/packages?channel=25.11&show=waywall&query=waywall).
 
 #### Package manager installs may still require the GLFW patch described in the Post-Install section.
 
 ## Post-Install
-- To correctly setup waywall to launch alongside minecraft you need to follow the [setup documentation](https://tesselslate.github.io/waywall/00_setup.html), You can skip the GLFW section unless you did **Manual Install** or **Package Manager Install** (without patched GLFW)
+- To correctly setup waywall to launch alongside minecraft you need to follow the [setup documentation](https://tesselslate.github.io/waywall/00_setup.html), you can skip the GLFW section unless you did **Manual Install** or **Package Manager Install** (without patched GLFW).
 
 - After this, move to the [config documentation](waywall_config.html) to install an example config and learn how to customize it to your liking.
 
