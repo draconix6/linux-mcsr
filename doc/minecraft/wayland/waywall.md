@@ -6,7 +6,7 @@
   - Ninjabrain Bot support.
   - Mirrors (i.e. magnifiers for eye measuring, F3, etc.) without using OBS.
   - Lots of custom functionality.
-- If you're using **X11**, please use [resetti](../x11/resetti.html) instead.
+- If you're using **X11**, please use [resetti](../x11/resetti.md) instead.
 
 ## Installation 
 
@@ -43,7 +43,7 @@ sudo pacman -S --noconfirm ninja meson wayland-protocols libegl libgles luajit l
 
 - Then, run the commands on this page of the [waywall documentation](https://tesselslate.github.io/waywall/00_installation.html#compiling).
 
-- Users on Debian-based distros may have trouble building waywall manually. If you're having trouble, join the [Linux MCSR Discord server](https://discord.gg/fwZA2VJh7k).
+- Users on Debian-based distros may have trouble building waywall manually. If you're having trouble, join the [Linux MCSR Discord server](https://discord.gg/3tm4UpUQ8t).
 
 - Run `waywall` in a terminal to check it's installed properly.
   - Use the absolute path to the waywall executable if this doesn't work (i.e. if you built waywall in `/home/username/waywall/build/waywall`, run `/home/username/waywall/build/waywall/waywall`).
@@ -60,7 +60,7 @@ sudo pacman -S --noconfirm ninja meson wayland-protocols libegl libgles luajit l
 ## Post-Install
 - To correctly setup waywall to launch alongside minecraft you need to follow the [setup documentation](https://tesselslate.github.io/waywall/00_setup.html), you can skip the GLFW section unless you did **Manual Install** or **Package Manager Install** (without patched GLFW).
 
-- After this, move to the [config documentation](waywall_config.html) to install an example config and learn how to customize it to your liking.
+- After this, move to the [config documentation](waywall-config.md) to install an example config and learn how to customize it to your liking.
 
 ## Troubleshooting
 
